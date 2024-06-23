@@ -1,0 +1,22 @@
+.transactionHistory {
+  border-collapse: collapse;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+thead {
+  background-color: #f3f6f9;
+  width: 334px;
+  color: #000;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  width: 90px;
+}
